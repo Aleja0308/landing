@@ -4,65 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Landing</title>
 </head>
 
 <body>
+
+  <!-- 
+    Cabecero
+   -->
   <header>
-
-    <nav>
-      <div>
-        <ul>
-          <div>
-            <img src="assets/images/logo.png" alt="logo">
-          </div>
-          <li><a href="index.html" target="_self">Inicio</a></li>
-          <li>Categorías</li>
-          <li>Entretenimiento</li>
-          <li>Productos</li>
-          <li>Contáctanos</li>
-          <li>Ingresar</li>
+    <div class="contenedor menu_contendor">
+      <a href="#" class="">
+        <img src="assets/images/logo.png" alt="logo" class="menu__logo">
+      </a>
+      <nav class="">
+        <ul class="menu__lista">
+          <li class="menu__item">
+            <a href="index.html" class="menu__link menu__link--active">Inicio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Categorías</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Entretenimiento</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Productos</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contáctanos</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Ingresar</a>
+          </li>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- Este es el saludo de nuestra página -->
+    <section id="saludo" class="courrusel">
+      <div class="courrusel__contenedor">
+        <img src="assets/images/inicio.png" alt="inicio" class="courrusel__imagen">
       </div>
-    </nav>
+    </section>
 
-    <div>
-      <img src="assets/images/inicio.png" alt="inicio">
-    </div>
+    <!-- este es el fin del saludo -->
+    <section id="cards" class="cards">
+      <div class="contenedor cards__contenedor">
+        <div class="card">
+          <img src="assets/images/categorías.png" alt="categorías" class="card__img">
+          <h2 class="card__titulo">Categorías</h2>
+          <p class="card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea maxime! Quas et
+            accusamus sit impedit
+            voluptatibus. Nemo, et exercitationem? Quae maxime modi soluta debitis corrupti adipisci autem ex quasi.</p>
+        </div>
 
-    <div>
-      <img src="assets/images/categorías.png" alt="categorías">
-      <h2>Categorías</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ea maxime! Quas et accusamus sit impedit
-        voluptatibus. Nemo, et exercitationem? Quae maxime modi soluta debitis corrupti adipisci autem ex quasi.</p>
-    </div>
+        <div class="card">
+          <img src="assets/images/entretenimiento.png" alt="entretenimiento" class="card__img">
+          <h2 class="card__titulo">Entretenimiento</h2>
+          <p class="card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad atque delectus nesciunt.
+            Quia dolorem iusto
+            recusandae? Laborum eligendi id ut, fugiat similique architecto magnam doloremque, recusandae accusantium
+            obcaecati earum ducimus?</p>
+        </div>
 
-    <div>
-      <img src="assets/images/entretenimiento.png" alt="entretenimiento">
-      <h2>Entretenimiento</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad atque delectus nesciunt. Quia dolorem iusto
-        recusandae? Laborum eligendi id ut, fugiat similique architecto magnam doloremque, recusandae accusantium
-        obcaecati earum ducimus?</p>
-    </div>
-
-    <div>
-      <img src="assets/images/productos.png" alt="productos">
-      <h2>Productos</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sunt minus impedit. Quos assumenda maxime qui!
-        Possimus optio dolor error, sapiente ratione atque ipsum labore earum ea ab. Praesentium, minima?</p>
-    </div>
-
-    <div>
+        <div class="card">
+          <img src="assets/images/productos.png" alt="productos" class="card__img">
+          <h2 class="card__titulo">Productos</h2>
+          <p class="card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sunt minus impedit. Quos
+            assumenda maxime
+            qui!
+            Possimus optio dolor error, sapiente ratione atque ipsum labore earum ea ab. Praesentium, minima?</p>
+        </div>
+      </div>
+    </section>
+    <!-- <div>
       <h2>¿Quiénes somos?</h2>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit incidunt dolores sint praesentium unde optio,
         facilis est! Odit, natus. Praesentium autem nostrum expedita eligendi iusto adipisci a fugiat deleniti esse!</p>
       <img src="assets/images/somos.png" alt="somos">
-    </div>
+    </div> -->
 
-  </header>
+
+  </main>
+
 
   <footer class="footer container">
-    <div class="contacto">
+    <!-- <div class="contacto">
       <h3>Contacto:</h3>
 
       <ul>
@@ -79,7 +111,7 @@
         <li><a href="#">+57 3100000000</a></li>
       </ul>
 
-    </div>
+    </div> -->
   </footer>
 </body>
 
