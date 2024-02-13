@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html{
+scroll-behavior: smooth;
+}
+
 body{
   background: #131036;
   font-family: 'Rubik', sans-serif;
@@ -39,11 +43,14 @@ body{
 
 .courrusel{
   background: #f1f1f1;
+
 }
+
 .courrusel__contenedor{
   display: flex;
   justify-content: center;
 }
+
 .courrusel__imagen{
   max-height: 450px;
 }
@@ -77,4 +84,86 @@ body{
   font-size: 1rem;
   color: rgba(19, 18, 18, 0.9);
   padding: 4px;
+}
+
+.info__contenedor{
+  display: flex;
+  align-content: center;
+  gap: 2rem;
+}
+
+.info{
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+
+.info_titulo{
+  display: flex;
+  font-size: 3rem;
+  text-align: justify;
+  padding: 40px;
+  margin: 50px;
+}
+
+.img_info{
+  max-width: 300px;
+  display: flex;
+  margin: 50px;
+}
+
+.info_texto{
+  display: flex;
+  margin: 30px;
+  font-size: 1.5rem;
+}
+
+.info__contenedor{
+  display: flex;
+}
+
+.footer_contacto{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2,5px;
+}
+
+.footer_contacto ul{
+  display: flex;
+  gap: 1rem;
+}
+
+.footer_contacto ul li{
+  list-style: none;
+}
+
+.contacto{
+  display: flex;
+  color: #f1f1f1;
+  font-size: 1,5rem;
+  padding: 20px;
+}
+
+.img_facebook{
+  display: flex;
+  max-width: 70px;
+}
+
+.img_instagram{
+  display: flex;
+  max-width: 70px;
+}
+
+.img_email{
+  display: flex;
+  max-width: 70px;
+}
+
+.img_whatsApp{
+  display: flex;
+  max-width: 70px;
 }
