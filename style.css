@@ -14,6 +14,10 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
+ul li a:hover{
+  color: rgb(121, 175, 223);
+}
+
 .contenedor{
   max-width: 900px;
   margin: 0 auto;
@@ -55,7 +59,6 @@ body{
   max-height: 450px;
 }
 
-
 .cards{
   padding-top: 60px;
   padding-bottom: 60px;
@@ -64,13 +67,17 @@ body{
 .cards__contenedor{
   display: flex;
   gap: 2rem;
+  color: #131036;
 }
 
 .card{
   background: #fff;
   border-radius: 8px;
   padding: 12px;
+  background-size: cover;
+  box-shadow: 3px 5px 5px black;
 }
+
 .card__img{
   max-width: 250px;
 }
@@ -125,7 +132,7 @@ body{
   display: flex;
 }
 
-.footer_contacto{
+.section_contacto{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -146,6 +153,7 @@ body{
   color: #f1f1f1;
   font-size: 1,5rem;
   padding: 20px;
+  justify-content:center;
 }
 
 .img_facebook{
@@ -167,3 +175,8 @@ body{
   display: flex;
   max-width: 70px;
 }
+
+ /*Se finalizan estilos index.html*/
+
+
+ 
