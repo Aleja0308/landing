@@ -75,7 +75,6 @@ ul li a:hover{
   border-radius: 8px;
   padding: 12px;
   background-size: cover;
-  box-shadow: 3px 5px 5px black;
 }
 
 .card__img{
@@ -178,5 +177,139 @@ ul li a:hover{
 
  /*Se finalizan estilos index.html*/
 
+.header_logo{
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
 
- 
+.login{
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__login{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f1f1f1;
+  min-width: 320px;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.card__botonera{
+  display: flex;
+  gap: 1rem;
+}
+
+.botonera__link{
+  text-decoration: none;
+  color: #131036;
+}
+
+.form__control{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #131036;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.form__control--row{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.form__input{
+  padding: 10px;
+  gap: 1rem;
+  border-radius: 12px;
+  border: solid 0.5px ;
+}
+
+.form__btn{
+  background-color: #131036;
+  color: #f1f1f1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+.contenedor_ingreso{
+  display: flex;
+  color: #f1f1f1;
+  justify-content:center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+ /*Se finalizan estilos ingresar.html*/
+
+ .registro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__registro{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f1f1f1;
+  min-width: 320px;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.card__botonera{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.botonera__link{
+  text-decoration: none;
+  color: #f1f1f1;
+  background-color: #131036;
+  border: solid 1px;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.form__input{
+  padding: 8px;
+  display: flex;
+  gap: 0,5rem;
+}
+
+.form__radio{
+  margin-right: 12px;
+}
+
+.form__button{
+  background-color: #131036;
+  color: #f1f1f1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+.form__control--small {
+  width: 101px;
+  margin: 0 auto;
+}
+.contenedor_registro{
+  display: flex;
+  color: #f1f1f1;
+  justify-content:center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+

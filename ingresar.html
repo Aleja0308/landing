@@ -9,25 +9,51 @@
 </head>
 
 <body>
-  <header>
-    <div class="">
+  <header class="header_logo">
+    <div class="logo">
       <a href="index.html" class="#">
         <img src="assets/images/logo.png" alt="logo" class="menu__logo">
       </a>
   </header>
 
-  <form action="landing/ingresar.html">
-    <div>
-      <label>Usuario:<input type="text" id="Usuario" name="Usuario" placeholder="Usuario" required
-          minlength="8"></label> <br>
-      <label>Contraseña<input type="password" id="Contraseña" name="Contraseña" placeholder="********" required
-          minlength="8"></label><br>
-      <label>Recordar datos<input id="datos" name="datos" type="checkbox" checked></label> <br>
-      <label><a href="reset-password/reset-password.html">¿Olvidaste tu contraseña?</a></label><br>
-      <a href="registro.html">Reg</a>
-      <button type="submit">Iniciar sesión</button>
+  <section class="login">
+
+    <div class="card__login">
+
+      <form action="landing/ingresar.html">
+
+        <div class="contenedor_ingreso">
+          <div class="form__control">
+            <label>Usuario:</label>
+            <input type="text" class="form__input" id="Usuario" name="Usuario" placeholder="Usuario" required
+              pattern="[A-Za-z]+">
+          </div>
+          <div class="form__control">
+            <label>Contraseña:</label>
+            <input type="password" class="form__input" id="Contraseña" name="Contraseña" placeholder="********" required
+              minlength="8">
+          </div>
+          <div class="form__control">
+            <label class="form__control--row">Recordar datos:
+              <input id="datos" name="datos" class="form__input" type="checkbox" class="recuperar_contraseña">
+            </label>
+          </div>
+          <div class="form__control">
+            <button type="submit" class="form__btn">Iniciar sesión</button>
+          </div>
+        </div>
+
+      </form>
+
+      <div class="card__botonera">
+        <a href="#" class="botonera__link">¿Olvidaste tu contraseña?</a>
+        <a href="registro.html" class="botonera__link">Regístrate</a>
+      </div>
+
     </div>
-  </form>
+
+  </section>
+
 
 </body>
 
